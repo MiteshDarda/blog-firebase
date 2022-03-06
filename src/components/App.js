@@ -3,7 +3,7 @@ import {Navbar, CreatePost, Home, PostDetail} from './'
 
 export default function App() {
   return (
-    <div className='container'>
+    <div className='bg-gradient-to-r from-blue-200 to-green-200 min-h-screen'>
       <Navbar />
       <Routes>
         <Route  path='/' element={<Home/>} />
