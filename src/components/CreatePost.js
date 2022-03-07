@@ -29,7 +29,7 @@ export default function CreatePost() {
                 Title
               </span>
             <input {...title} placeholder="Title"
-              className=" p-2 pl-4 border-black border-solid border-2 rounded-lg w-96"
+              className=" p-2 pl-4 border-gray-400  border-solid border-2 rounded-lg w-96"
               />
             </label>
             <label className="">
@@ -37,7 +37,7 @@ export default function CreatePost() {
                 Sub-Title
               </span>
             <input {...subTitle} placeholder="Sub-Title"
-              className="p-2 pl-4 border-black border-solid border-2 rounded-lg w-96"
+              className="p-2 pl-4 border-gray-400 border-solid border-2 rounded-lg w-96"
               />
             </label>
             <label className="">
@@ -45,7 +45,7 @@ export default function CreatePost() {
                 Content
               </span>
             <textarea {...content} placeholder="Title"
-              className="p-2 pl-4 border-black border-solid border-2 rounded-lg w-96 h-32"
+              className="p-2 pl-4 border-gray-400 border-solid border-2 rounded-lg w-96 h-32"
               />
           </label>
           <br/>
